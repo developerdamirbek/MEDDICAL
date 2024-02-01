@@ -1,10 +1,9 @@
-import { Products } from "../pages/products";
+import { Doctors } from "../pages/doctors";
 import { About } from "../pages/about";
 import { Home } from "../pages/home";
-import { Faq } from "../pages/Faq";
-import { Brand } from "../pages/brand/brand";
+import { News } from "../pages/news";
+import { Services } from "../pages/services";
 import { Contact } from "../pages/contact";
-import { WhereTobuy } from "../pages/wheretobuy";
 
 export const main_pages = [
   {
