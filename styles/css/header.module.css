@@ -4,26 +4,25 @@
   box-sizing: border-box;
 }
 
-
-.nav_flex{
+.nav_flex {
   display: flex;
   justify-content: space-around;
   margin-top: 0.5rem;
 }
 
-.contacts{
+.contacts {
   display: flex;
   gap: 60px;
   align-items: center;
 }
 
-.contact{
+.contact {
   display: flex;
   align-items: center;
   gap: 16px;
 }
 
-.search_btn{
+.search_btn {
   display: flex;
   align-items: center;
   gap: 31px;
@@ -64,4 +63,4 @@ a {
   justify-content: flex-start;
   align-items: center;
   padding: 13px 35px 13px 35px;
-}
+}/*# sourceMappingURL=header.module.css.map */
