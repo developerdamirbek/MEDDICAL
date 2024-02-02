@@ -1,90 +1,45 @@
 // import React from 'react'
-import style from "./services.module.scss"
-import main_img from "./images/main_imgs.svg"
-import free from "./images/free.jpg"
+import style from "./services.module.scss";
+import main_img from "./images/main_imgs.svg";
+import {ContactCards} from "../../components/contactcards/contact-cards";
+import { Footer } from "../../layout/footer/footer";
+import { Header } from "../../layout/header/header";
 
-import icons from "./images/icons.svg"
 
+import { Service } from "./components/service";
 
 export const Services = () => {
   return (
-   <div>
-    <div className={style.main}>
-    <div className="">
-      <div className={style.style_main}>
-      <img src={main_img} alt="imgs" />
-       <div className='container'>
-       <div className={style.style_title}>
-        <p>Home / Services</p>
-        <h1>Our Services</h1>
-       </div>
-       </div>
+    <div>
+      <div className={style.main}>
+        <div className="">
+          <div className={style.style_main}>
+            <img src={main_img} alt="imgs" />
+            <div className="container">
+              <div className={style.style_title}>
+                <p>Home / Services</p>
+                <h1>Our Services</h1>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <div className={style.Free}>
+        <div className="container">
+          <div className={style.Services_free}>
+            <Service />
+            <Service />
+            <Service />
+            <Service />
+            <Service />
+            <Service />
+          </div>
+        </div>
+      <ContactCards />
+      
+      </div>
+
     </div>
-   </div>
-
-   <div className={style.Free}>
-    <div className='container'>
-      <div className={style.card_img} >
-         <img className={style.style_img} src={free} alt="" />
-         <img src={icons} className={style.icons} alt="" />
-         <div className={style.style_checkup}>
-          <h2>Free Checkup</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing Quisque placerat Convallis felis vitae tortor augue. Velit nascetur massa in.</p>
-         <button>Learn More </button>
-         </div>
-      </div>
-      <div className={style.card_img} >
-         <img className={style.style_img} src={free} alt="" />
-         <img src={icons} className={style.icons} alt="" />
-         <div className={style.style_checkup}>
-          <h2>Free Checkup</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing Quisque placerat Convallis felis vitae tortor augue. Velit nascetur massa in.</p>
-         <button>Learn More </button>
-         </div>
-      </div>
-      <div className={style.card_img} >
-         <img className={style.style_img} src={free} alt="" />
-         <img src={icons} className={style.icons} alt="" />
-         <div className={style.style_checkup}>
-          <h2>Free Checkup</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing Quisque placerat Convallis felis vitae tortor augue. Velit nascetur massa in.</p>
-         <button>Learn More </button>
-         </div>
-      </div>
-      <div className={style.card_img} >
-         <img className={style.style_img} src={free} alt="" />
-         <img src={icons} className={style.icons} alt="" />
-         <div className={style.style_checkup}>
-          <h2>Free Checkup</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing Quisque placerat Convallis felis vitae tortor augue. Velit nascetur massa in.</p>
-         <button>Learn More </button>
-         </div>
-      </div>
-      <div className={style.card_img} >
-         <img className={style.style_img} src={free} alt="" />
-         <img src={icons} className={style.icons} alt="" />
-         <div className={style.style_checkup}>
-          <h2>Free Checkup</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing Quisque placerat Convallis felis vitae tortor augue. Velit nascetur massa in.</p>
-         <button>Learn More </button>
-         </div>
-      </div>
-      <div className={style.card_img} >
-         <img className={style.style_img} src={free} alt="" />
-         <img src={icons} className={style.icons} alt="" />
-         <div className={style.style_checkup}>
-          <h2>Free Checkup</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing Quisque placerat Convallis felis vitae tortor augue. Velit nascetur massa in.</p>
-         <button>Learn More </button>
-         </div>
-      </div>
-    </div>
-
-   </div>
-
-
-   </div>
-   
-  )
-}
+  );
+};

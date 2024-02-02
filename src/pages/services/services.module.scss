@@ -54,3 +54,11 @@
     font-family: 'Work Sans', sans-serif;
     
 }
+.Free{
+    margin-top: 35px;
+}
+.Services_free{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
