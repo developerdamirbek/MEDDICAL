@@ -1,8 +1,10 @@
 import React from 'react'
 import style from './home.module.scss'
 import { ContactCards } from '../../components/contactcards'
+import { useNavigate } from 'react-router-dom'
 
 export const Home = () => {
+   
     return (
         <section className={style.hero}>
             <div className={style.container}>

@@ -1,8 +1,9 @@
-import React from 'react'
-import DoctorsImg from '../images/doctors-post.jpg'
-import style from '../about.module.scss'
-import { EyeIcon } from '../../../assets/icons/eye-icon';
-import { RedHeart } from './../../../assets/icons/red-heart';
+import React from "react";
+// import DoctorsImg from "../images/doctors-post.jpg";
+import DoctorsImg from "../pages/about/images/doctors-post.jpg";
+import style from '../pages/about/about.module.scss'
+import { EyeIcon } from "../assets/icons/eye-icon";
+import { RedHeart } from "../assets/icons/red-heart";
 export default function DoctorsPost() {
   return (
     <div className={style.container}>

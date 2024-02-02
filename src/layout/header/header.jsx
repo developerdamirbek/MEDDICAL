@@ -13,7 +13,9 @@ export const Header = () => {
       <div className={style.header_top}>
         <div className={style.container}>
           <nav className={style.nav_flex}>
+            <NavLink to="/" >
             <Logo />
+            </NavLink>
             <div className={style.contacts}>
               <div className={style.contact}>
                 <PhoneIcon />
