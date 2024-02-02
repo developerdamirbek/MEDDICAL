@@ -5,8 +5,10 @@ import { ContactCards } from '../../components/contactcards'
 import { ServiceCard } from '../../components/servicecard'
 import { Service } from '../../components/services/service'
 import { RightArrow } from '../../assets/icons/right-arrow'
+import { useNavigate } from 'react-router-dom'
 
 export const Home = () => {
+   
     return (
         <>
             <section className={style.hero}>

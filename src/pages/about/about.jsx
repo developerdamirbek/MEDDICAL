@@ -1,10 +1,11 @@
-import React from 'react'
-import AboutImg1 from '../about/images/about-bg-img.jpg'
-import style from './about.module.scss'
-import DoctorW from './images/doctor-women.svg'
-import BgImg2 from './images/about-bg-2.png'
-import DoctorComp from './components/doctor-comp'
-import DoctorsPost from './components/doctors.post'
+import React from "react";
+import AboutImg1 from "../about/images/about-bg-img.jpg";
+import style from "./about.module.scss";
+import DoctorW from "./images/doctor-women.svg";
+import BgImg2 from "./images/about-bg-2.png";
+import DoctorComp from "./components/doctor-comp";
+import DoctorsPost from "../../components/doctors.post";
+import { ContactCards } from "../../components/contactcards";
 
 export const About = () => {
   return (
@@ -18,7 +19,7 @@ export const About = () => {
           </div>
         </div>
       </div>
-      <div className='container p-2'>
+      <div className="container p-2">
         <div className={style.about_flex}>
           <img src={DoctorW} alt="" />
           <div className={style.about_section}>
@@ -76,6 +77,7 @@ export const About = () => {
       </div>
       <DoctorComp />
       <DoctorsPost />
+      <ContactCards />
     </div>
   );
-}
+};
