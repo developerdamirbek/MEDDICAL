@@ -5,7 +5,9 @@ import DoctorW from "./images/doctor-women.svg";
 import BgImg2 from "./images/about-bg-2.png";
 import DoctorComp from "./components/doctor-comp";
 import DoctorsPost from "../../components/doctors.post";
-import { ContactCards } from "../../components/contactcards";
+import { ContactCards } from './../../components/contactcards/contact-cards';
+import { Service } from "../../components/services/service";
+
 
 export const About = () => {
   return (
@@ -76,6 +78,7 @@ export const About = () => {
         </div>
       </div>
       <DoctorComp />
+      <Service/>
       <DoctorsPost />
       <ContactCards />
     </div>
