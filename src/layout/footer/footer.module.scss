@@ -7,69 +7,86 @@
     padding-top: 70px;
     padding-bottom: 47px;
     border-bottom: 2px solid #BFD2F8;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
 }
 
-
-.logo__img {
-    margin-left: 70px;
-    margin-top: 70px;
+.container {
+    max-width: 1240px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 .footer__h3Text {
-    margin-left: 70px;
+    max-width: 240px;
     margin-top: 30px;
-    color: white;
+    color: rgb(252, 254, 254);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: left;
 }
 
 .useful_text {
-    margin-top: 70px;
-    margin-left: 70px;
     font-size: 26px;
     color: #fff;
-    font-family: 'Work Sans';
+    font-family: 'Work Sans', sans-serif;
 }
 
 .input__footer {
-    width: 270px;
+    max-width: 270px;
     outline: none;
     background: #BFD2F8;
     color: #1F2B6C;
-    font-size: 20px;
-    margin-left: 70px;
-    margin-top: 30px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
     border-radius: 10px;
+    padding: 10px 14px;
+    margin-top: 39px;
 }
 
 .form_list {
     margin-top: 30px;
-    margin-left: 70px;
 }
 
 
 
 .form_link {
-    margin-top: 10px;
-    color: white;
-    font-size: 18px;
+    color: rgb(252, 254, 254);
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: left;
 }
 
 .footer__bottom {
-    // border: 1px solid red;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 46px;
+    padding-bottom: 76px;
 }
 
 .footer__year {
-    color: #fff;
-    margin-left: 70px;
-    margin-top: 45px;
-    font-size: 22px;
+    color: rgb(252, 254, 254);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
 }
 
-.logo__app {
-    width: 50px;
-    height: 50px;
-    margin-top: 25px;
+.footer__links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }

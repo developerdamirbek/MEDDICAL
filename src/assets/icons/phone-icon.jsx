@@ -1,6 +1,6 @@
 import React from "react";
 
-function phoneIcon() {
+export const PhoneIcon = () => {
   return (
     <svg
       width={41}
@@ -27,4 +27,3 @@ function phoneIcon() {
   );
 }
 
-export default phoneIcon;
