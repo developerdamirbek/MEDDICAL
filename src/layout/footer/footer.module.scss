@@ -1,0 +1,75 @@
+.footer {
+    width: 100%;
+    background: #1F2B6C;
+}
+
+.footer__top {
+    padding-top: 70px;
+    padding-bottom: 47px;
+    border-bottom: 2px solid #BFD2F8;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+
+.logo__img {
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+.footer__h3Text {
+    margin-left: 70px;
+    margin-top: 30px;
+    color: white;
+}
+
+.useful_text {
+    margin-top: 70px;
+    margin-left: 70px;
+    font-size: 26px;
+    color: #fff;
+    font-family: 'Work Sans';
+}
+
+.input__footer {
+    width: 270px;
+    outline: none;
+    background: #BFD2F8;
+    color: #1F2B6C;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.form_list {
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+
+
+.form_link {
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+.footer__bottom {
+    // border: 1px solid red;
+    display: flex;
+}
+
+.footer__year {
+    color: #fff;
+    margin-left: 70px;
+    margin-top: 45px;
+    font-size: 22px;
+}
+
+.logo__app {
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+}
