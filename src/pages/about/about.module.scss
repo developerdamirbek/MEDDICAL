@@ -13,6 +13,16 @@ body {
   opacity: 0.5;
 }
 
+.container {
+  max-width: 1240px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .about_texts {
   position: absolute;
   height: 76px;
@@ -157,4 +167,52 @@ margin-top: 20px;
   width: 74px;
 height: 18px;
 margin-top: 20px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.post h3{
+color: rgb(21, 158, 236);
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.post h2{
+  color: rgb(33, 33, 36);
+font-size: 18px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.doctors_icon{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.d_icons{
+  display: flex;
+  gap: 10px;
+}
+
+.doctors_flex{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.posts{
+  display: flex;
+  gap: 53px;
+  margin-top: 20px;
+  padding: 1rem;
 }

@@ -18,6 +18,10 @@ body {
   font-family: 'Work Sans', sans-serif;
 }
 
+.p-2{
+  padding: 2rem;
+}
+
 .container {
   max-width: 1240px;
   width: 100%;
