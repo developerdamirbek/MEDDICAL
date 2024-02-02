@@ -1,6 +1,6 @@
 import React from "react";
 import { links } from "./data";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import style from "./header.module.scss";
 import { SearchIcon } from "../../assets/icons/search-icon";
 import { Logo } from "../../assets/icons/logo";
@@ -13,6 +13,9 @@ export const Header = () => {
       <div className={style.header_top}>
         <div className={style.container}>
           <nav className={style.nav_flex}>
+            <Link to="/">
+              <Logo />
+            </Link>
             <NavLink to="/" >
             <Logo />
             </NavLink>

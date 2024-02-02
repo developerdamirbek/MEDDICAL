@@ -4,6 +4,7 @@ import { LinkedinIcon } from "../../assets/icons/linkedin-icon";
 import { FacebookIcon } from "../../assets/icons/facebook-icon";
 import { InstagramIcon } from "../../assets/icons/instagram-icon";
 import { FooterLogo } from "../../assets/icons/footer-logo";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -12,9 +13,9 @@ export const Footer = () => {
         <div className={styleFooter.footer__container}>
           <div className={styleFooter.footer__top}>
             <div className={styleFooter.footer__card}>
-              <a href="" className={styleFooter.logo__img}>
+              <Link to="/">
                 <FooterLogo />
-              </a>
+              </Link>
               <h3 className={styleFooter.footer__h3Text}>Leading the Way in Medical
                 Execellence, Trusted Care.</h3>
             </div>
@@ -26,13 +27,13 @@ export const Footer = () => {
                     Apportiment
                   </li>
                   <li className={styleFooter.form_link}>
-                    Doctors
+                    <Link to="/doctors">Doctors</Link>
                   </li>
                   <li className={styleFooter.form_link}>
-                    Services
+                    <Link to="/services">Services</Link>
                   </li>
                   <li className={styleFooter.form_link}>
-                    About Us
+                    <Link to="/about">About Us</Link>
                   </li>
                 </ul>
               </div>
@@ -64,9 +65,15 @@ export const Footer = () => {
           <div className={styleFooter.footer__bottom}>
             <p className={styleFooter.footer__year}>© 2021 Hospital’s name All Rights Reserved by PNTEC-LTD</p>
             <div className={styleFooter.footer__links}>
+              <a className={styleFooter.footer_link} href="">
                 <LinkedinIcon />
+              </a>
+              <a className={styleFooter.footer_link} href="">
                 <FacebookIcon />
+              </a>
+              <a className={styleFooter.footer_link} href="">
                 <InstagramIcon />
+              </a>
             </div>
           </div>
         </div>

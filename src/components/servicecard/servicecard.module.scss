@@ -1,0 +1,59 @@
+.service_card {
+    display: flex;
+    flex-direction: column;
+}
+
+.service_info {
+    background: rgb(191, 210, 248);
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.service_link {
+    color: #1F2B6C;
+}
+
+.card_links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.name {
+    color: rgb(31, 43, 108);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    margin-bottom: 8px;
+}
+
+.job {
+    color: rgb(31, 43, 108);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 16%;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.card_btn {
+    width: 100%;
+    margin: 0;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 0px 0px 5px 5px;
+    background: rgb(31, 43, 108);
+    color: rgb(191, 210, 248);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    cursor: pointer;
+}

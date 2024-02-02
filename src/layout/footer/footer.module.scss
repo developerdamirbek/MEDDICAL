@@ -83,11 +83,14 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
-    text-align: left;
 }
 
 .footer__links {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.footer_link {
+    color:#BFD2F8;
 }
