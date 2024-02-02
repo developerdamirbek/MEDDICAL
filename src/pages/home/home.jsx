@@ -8,8 +8,10 @@ import { SquarePlus } from '../../assets/icons/square-plus'
 import { BloodBank } from '../../assets/icons/blood-bank'
 import img1 from '../../assets/images/ser1.png'
 import img2 from '../../assets/images/ser2.png'
+import { useNavigate } from 'react-router-dom'
 
 export const Home = () => {
+   
     return (
         <>
             <section className={style.hero}>

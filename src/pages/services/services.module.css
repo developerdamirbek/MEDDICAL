@@ -1,0 +1,61 @@
+.style_main {
+  position: relative;
+}
+
+.style_title {
+  position: absolute;
+  margin-top: -170px;
+}
+
+.style_title p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+  color: #1F2B6C;
+}
+
+.style_title h1 {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Yeseva One", serif;
+  color: #1F2B6C;
+}
+
+.style_img {
+  width: 317px;
+  height: 300px;
+  border-radius: 5px 5px 0 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card_img {
+  width: 319px;
+  height: 552px;
+  border: 2px solid rgb(128, 128, 128);
+  border-radius: 5px;
+}
+
+.icons {
+  margin-left: 200px;
+  margin-top: -45px;
+}
+
+.style_checkup {
+  margin-left: 20px;
+}
+
+.style_checkup h2 {
+  font-size: 26px;
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 5px;
+  color: #1F2B6C;
+  font-weight: 500;
+}
+
+.style_checkup p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  font-family: "Work Sans", sans-serif;
+}/*# sourceMappingURL=services.module.css.map */

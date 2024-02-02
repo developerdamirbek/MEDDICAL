@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav_flex {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.5rem;
+}
+
+.contacts {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.search_btn {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  background-color: #1f2b6c;
+  margin-top: 1rem;
+  width: 100%;
+  padding: 1.5rem;
+}
+
+.header_btn {
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  background: rgb(191, 210, 248);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 13px 35px 13px 35px;
+}/*# sourceMappingURL=header.module.css.map */

@@ -16,6 +16,9 @@ export const Header = () => {
             <Link to="/">
               <Logo />
             </Link>
+            <NavLink to="/" >
+            <Logo />
+            </NavLink>
             <div className={style.contacts}>
               <div className={style.contact}>
                 <PhoneIcon />
