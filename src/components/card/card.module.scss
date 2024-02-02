@@ -1,0 +1,47 @@
+
+
+.card_title {
+    color: rgb(31, 43, 108);
+    font-family: 'Work Sans',sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.card {
+    max-width: 233px;
+    width: 100%;
+    padding-top: 52px;
+    padding-left: 26px;
+    padding-bottom: 52px;
+    border-radius: 5px;
+    background-color: rgb(191, 210, 248);
+    cursor: pointer;
+    transition: all 0.4s ease;
+
+    &:hover {
+        background-color: rgb(31, 43, 108);
+    }
+}
+
+.card_text {
+    color: rgb(31, 43, 108);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: left;
+}
+
+.card:hover .card_text {
+    color: #fff;
+}
+
+.card:hover .card_title {
+    color: #fff;
+}
+
+
