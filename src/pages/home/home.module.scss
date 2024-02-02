@@ -120,7 +120,7 @@
 }
 
 .banner {
-    background-image: url(../../assets/images/about-bg.jpg);
+    background-image: url(../../assets/images/home-banner.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -140,9 +140,87 @@
 }
 
 .home_services__content {
-    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .home_services__tab {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(31, 43, 108, 0.47);
+    border-radius: 5px;
+    background: rgb(252, 254, 254);
+}
 
+.service_tab {
+    padding: 24px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s ease;
+
+    &:hover {
+        background-color: #1F2B6C;
+    }
+}
+
+.tab_icon {
+    color: #159EEC;
+    margin-bottom: 11px;
+}
+
+.tab_title {
+    color: rgb(33, 33, 36);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.tab_btn {
+    width: 100%;
+    background: rgb(31, 43, 108);
+    border: none;
+    cursor: pointer;
+    color: rgb(191, 210, 248);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.service_tab:hover .tab_title {
+    color: #BFD2F8;
+}
+
+.service_tab:hover .tab_icon {
+    color: #BFD2F8;
+}
+
+.services_info {
+    width: 470px;
+}
+
+.services_info__title {
+    color: rgb(0, 0, 0);
+    font-family: Work Sans;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+    padding-top: 27px;
+}
+
+.home_services__images {
+    width: 324px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
