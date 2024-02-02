@@ -55,3 +55,94 @@
     border: none;
     cursor: pointer;
 }
+
+.home_about {
+    padding-top: 114px;
+    padding-bottom: 61px;
+    text-align: center;
+}
+
+.home_about__text {
+    color: rgb(21, 158, 236);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 16%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.home_about__title {
+    color: rgb(31, 43, 108);
+    font-family: 'Yeseva One';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.home_about__sub__text {
+    color: rgb(33, 33, 36);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    max-width: 658px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+}
+
+.home_about__btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(21, 158, 236);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.home_banner {
+    padding-bottom: 64px;
+}
+
+.banner {
+    background-image: url(../../assets/images/about-bg.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+}
+
+.home_services__title {
+    color: rgb(31, 43, 108);
+    font-family: Yeseva One;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.home_services__content {
+    
+}
+
+.home_services__tab {
+
+}

@@ -5,5 +5,38 @@
     padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
-  }
-  
+}
+
+.services_card__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services_text {
+    color: rgb(21, 158, 236);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 16%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.services_title {
+    color: rgb(31, 43, 108);
+    font-family: 'Yeseva One';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.services_sec {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
